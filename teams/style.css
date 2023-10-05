@@ -1,0 +1,226 @@
+html, body {
+    height: 100%;
+    background: linear-gradient(to bottom left, skyblue, white);
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    border: 1px solid;
+    background-color: white;
+}
+
+table,
+td {
+    text-align: center;
+    width: 500px;
+    border: 1px solid;
+}
+
+.simple-input {
+    margin: 10px;
+    width: 80%;
+}
+
+.simple-label {
+    text-align: left;
+    display: block;
+    margin-left: 10px;
+}
+
+.arabic-numbering {
+    list-style-type: arabic-indic;
+}
+
+input:required {
+    background: #5ec75e;
+    margin: 10px;
+    width: 80%;
+}
+
+input:invalid {
+    border: 3px solid red;
+    margin: 10px;
+    width: 80%;
+}
+
+input:focus {
+    background: #4e88b1;
+    margin: 10px;
+    width: 80%;
+}
+
+input:focus:invalid {
+    background: #4e88b1;
+    margin: 10px;
+    width: 80%;
+    border: 3px solid red;
+}
+
+input:focus:valid {
+    background: #4e88b1;
+    margin: 10px;
+    width: 80%;
+    border: 3px solid green;
+}
+
+#submit {
+    text-align: center;
+    width: 100%;
+}
+
+#submit:hover {
+    background-color: orange;
+    width: 100%;
+    margin: 0;
+}
+
+#submit:focus {
+    background-color: green;
+}
+
+header {
+    border: 1px solid;
+    background-color: #6999a0;
+    font-family: Calibri, serif;
+}
+
+main {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid;
+    font-family: "Comic Sans MS", serif;
+    background: linear-gradient(to bottom left, #4e88b1, #6FB4C0);
+    padding: 10px 5px;
+    font-size: 15px;
+    height: 80%;
+}
+
+
+footer {
+    border: 1px solid;
+    background-color: #6999a0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Roboto", Verdana, Arial, sans-serif;
+}
+
+nav a, header a, .custom-button {
+/ / custom button is used for the buttons edit and delete padding: 8 px 8 px 8 px 8 cap;
+    text-decoration: none;
+    color: black;
+    transition: 0.25s;
+}
+
+nav a:hover, header a:hover {
+    color: #f1f1f1;
+}
+
+footer * {
+    font-size: 14px;
+}
+
+.custom-button {
+    font-size: 20px;
+}
+
+.custom-button:hover {
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+
+}
+
+li {
+    margin: 0 10px;
+    align-self: center;
+}
+
+.horizontal-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    color: red;
+}
+
+img {
+    width: 50px;
+}
+
+.dashboardTable {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.dashboardTable th {
+    background: gray;
+}
+
+.dashboardTable td,
+.dashboardTable th {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 10px 2px;
+}
+
+.dashboardTable tr:nth-child(odd) {
+    background: #CCC
+}
+
+.dashboardTable tr:nth-child(even) {
+    background: white;
+}
+
+.button {
+    background-color: #CCC;
+    padding: 3px 5px;
+    border: 1px solid;
+    text-decoration: none;
+    color: initial;
+}
+
+.fill-green {
+    color: #5ec75e;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.isMine {
+    color: #5ec75e;
+}
+
+.notIsMine {
+    color: #c75e5e;
+}
+
+.isMine:hover {
+    color: #3e8f3e;
+}
+
+.notIsMine:hover {
+    color: #8f3e3e;
+}
+
+.center-form {
+    text-align: center;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
